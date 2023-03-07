@@ -26,4 +26,4 @@ Feel free to contact me at dhxl2014@gmail.com, or on [LinkedIn](www.linkedin.com
   
 - [Voice-Recognition Pokedex](daniel_liu/VoicePokedex) - JS
 
-  This project was an independent project inspired by the Pokedex from Pokemon, which was a voice-activated encyclopedia of information about different Pokemon. To use this program, speak a Pokemon's name clearly into the computer's microphone, and the program, which uses p5.js to parse spoken word into strings, connects that name to PokeAPI to output relevant information. 
+  This project was an independent project inspired by the Pokedex from Pokemon, which was a voice-activated encyclopedia of information about different Pokemon. To use this program, speak a Pokemon's name clearly into the computer's microphone, and the program, which uses p5.js to parse spoken word into strings, connects that name to PokeAPI to output relevant information. An online version can be found at: https://voicepokedex.dliu22.repl.co.

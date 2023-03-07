@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Interactive</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="forum.js"></script>
+    <div class = "header">
+      <h1><img class = "icon" src = "megaphone.png" style = "transform:scaleX(-1)">AWARENESS<img class = "icon" src = "megaphone.png"></h1>
+      <p>Raising awareness about global issues through interactive activities.</p>
+    </div>
+    <ul class = "navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="forum.html">Forum</a></li>
+        <li><a  class = "active" href="interactive.html">Interactive</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="info.html">More Info</a></li>
+      </ul>
+
+    <div class="interaction">
+        <img class="interact center" src="Images/uFull-Scene.png" width='1920px' height='1080px'>
+        <div class="content_img">
+          <img class="interactBear center" src="InteractiveImg/uBear.png" width='190px' height='125px'>
+          <div> Changes in climate affect animals from all over the world. For example, polar bears' glacial habitats are diminishing as the northern ice caps are melting rapidly. </div>
+        </div>
+        <div class="content_img">
+          <img class="interactTree center" src="InteractiveImg/uFellTrees.png" width='1050px' height='880px'>
+          <div> Trees are often chopped down to build infrastructures. While doing so may be beneficial to humans, when done irresponsibly, it can harm the environment and its ecosystem</div>
+        </div>
+
+        <div class="content_img">
+          <img class="interactIce center" src="InteractiveImg/uGlacier.png" width='415px' height='190px'>
+        <div> As the Earth's surface temperatures are rising, the glacial ice caps are also melting. This means that the water levels will rise, and animals that live in these icy climates will lose their homes. </div>
+        </div>
+        
+        <div class="content_img">
+          <img class="interactOil center" src="InteractiveImg/uOilSpill.png" width='560px' height='290px'>
+        <div> Sometimes, oil is disposed into our environment, whether by accident or on purpose, polluting it. </div>
+        </div>
+
+        <div class="content_img">
+          <img class="interactTrash center" src="InteractiveImg/uTrash.png" width='940px' height='380px'>
+        <div> When people throw their garbage into the environment, it is exposed to nature. This means that it has the potential to hurt animals and plants.  </div>
+        </div>
+
+<div class="content_img">
+        <img class="interactFish center" src="InteractiveImg/uSadFishies.png" width='420px' height='210px'>
+        <div> When garbage and chemicals are introduced to the environment, it can heavily impact local wildlife. For example, fish and birds that live in the ocean may have their health negatively impacted by exposure to harmful chemicals. </div>
+        </div>
+
+<div class="content_img">
+        <img class="interactSmog center" src="InteractiveImg/uSmog.png" width='350px' height='270px'>
+        <div> Factories and other industrial infrastructures produce a lot of air pollution, which can increase the level of greenhouse gases in our atmosphere, ultimately contributing to the global warming. Additionally, these fumes are harmful to animals, plants, and humans around the globe. </div>
+        </div>
+
+    </div>
+    <style> 
+     .content_img{
+      position: relative;
+      width: 200px;
+      height: 200px;
+      float: left;
+      margin-right: 10px;
+      }
+
+      .content_img div{
+      position: relative;
+      
+      bottom: 0;
+      right: 0;
+      background: black;
+      color: white;
+      margin-bottom: 5px;
+      font-family: sans-serif;
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transition: visibility 0s, opacity 0.5s linear; 
+      transition: visibility 0s, opacity 0.5s linear;
+      z-index: 5;
+      }
+      /* Hover on Parent Container */
+      .content_img:hover{
+      cursor: pointer;
+      }
+      .bear {
+        
+      }
+      .content_img:hover div{
+      //left: 50px;
+      //top: 520px;
+      width: 150px;
+      padding: 8px 15px;
+      visibility: visible;
+      opacity: 0.7; 
+      }
+
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+      }
+      /* .interaction {
+        
+        //margin: auto;  
+        //margin-right: auto; 
+        
+      } */
+      .interact {
+        position: absolute;
+        font-size: 30px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        background-image: url("Images/uFullScene.png");
+        background-size: cover;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        color:white;
+      }
+      .interactBear {
+        position: absolute;
+        padding-top: 590px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 0;
+        margin-bottom: 0;
+        z-index: 4;
+      }
+      .interactTree {
+        position: absolute;
+        padding-top: 220px;
+        padding-bottom: 20px;
+        padding-left: 570px;
+        padding-right: 40px;
+        margin-top: 0;
+        margin-bottom: 0;
+        z-index: 2;
+      }
+      .interactIce {
+        position: absolute;
+        padding-top: 680px;
+        padding-bottom: 20px;
+        padding-left: 35px;
+        padding-right: 40px;
+        margin-top: 0;
+        margin-bottom: 0;
+        z-index: 3;
+      }
+      .interactOil {
+        position: absolute;
+        padding-top: 810px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 0;
+        margin-bottom: 0;
+        z-index: 2;
+      }
+      .interactFish {
+        position: absolute;
+        padding-top: 722px;
+        padding-bottom: 20px;
+        padding-left: 535px;
+        padding-right: 40px;
+        margin-top: 0;
+        margin-bottom: 0;
+        z-index: 2;
+      }
+      .interactSmog {
+        position: absolute;
+        padding-top: 17px;
+        padding-bottom: 20px;
+        padding-left: 1610px;
+        padding-right: 40px;
+        margin-top: 0;
+        margin-bottom: 0;
+        z-index: 2;
+      }
+      .interactTrash {
+        position: absolute;
+        padding-top: 478px;
+        padding-bottom: 20px;
+        padding-left: 343px;
+        padding-right: 40px;
+        margin-top: 0;
+        margin-bottom: 0;
+        z-index: 2;
+      }
+    </style>
+  </body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Climate Change Quiz</title>
+    <link rel="shortcut icon" type="image/png" href="megaphone.png"/>
+    <link href="/../style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class = "header">
+      <h1>AWARENESS</h1>
+      <p>Raising awareness about global issues through interactive activities.</p>
+    </div>
+    <ul class = "navbar">
+      <li><a href="/../index.html">Home</a></li>
+      <li><a href="/../forum.html">Forum</a></li>
+      <li><a href="/../interactive.html">Interactive</a></li>
+      <li><a class="active" href="/../games.html">Games</a></li>
+      <li><a href="/../info.html">More Info</a></li>
+    </ul>
+
+
+    <div class = "quiz-container">
+      <div class = "score">
+        <span id="user-score">0</span>
+        <span id="total-score">/ 5</span>
+      </div>
+      <br>
+      <div class="quiz-content" id="question-area">
+        <div id="question-text"></div>
+        <div class="options">
+          <button class="btn btn-option" id="True">True</button>
+          <button class="btn btn-option" id="False">False</button>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button class="btn btn-restart" id="restart">Restart</button>
+        <button class="btn btn-prev" id = "prev">Prev</button>
+        <button class="btn btn-next" id = "next">Next</button>
+        <button class="btn btn-submit" id = "submit">Submit</button>
+      </div>
+    </div>
+    <script src="climatechange.js"></script>
+    <style>
+      body {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+      .quiz-container{
+        width:80vw;
+        max-width: 80%;
+        background-color: #2b3d4c;
+        margin: 0 auto;
+        margin-top: 20px;
+        height: 70vh;
+        box-shadow: 0 0 5px 4px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        borer-radius: 8px;
+        text-align: center;
+      }
+      #question-text{
+        color: white;
+        font-size:30px;
+        padding:10px;
+      }
+      .score{
+        font-size: large;
+        font-weight: bold;
+      }
+      #user-score{
+        color: #ef9614;
+      }
+      #total-score{
+        color:#f6490f;
+      }
+      .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .btn{
+        font-size: large;
+        font-weight: bold;
+        box-shadow: 0 6px 12px  -2px rgba(#f27813,.15);
+        background: #ef9614;
+        border-radius: 4px;
+        padding: 10px;
+        color: beige;
+        margin: 6px;
+        cursor: pointer;
+      }
+      .btn:hover{
+        color:black;
+        padding: 15px;
+      }
+      .options{
+        padding: 10px;
+        order:3;
+      }
+      .controls{
+        padding:10px;
+        order:4;
+      }
+      .hide{
+        display:none;
+      }
+    </style>
+  </body>
+</html>

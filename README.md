@@ -12,10 +12,10 @@ Feel free to contact me at dhxl2014@gmail.com, or on [LinkedIn](www.linkedin.com
 
   This project was made as part of my COS226: Data Structures and Algorithm class. I worked with a partner to create an Autocomplete Engine in Java that, given a text file of queries, would predict (and weight) the possible words that the user was trying to type at that second. I included the AutoCompleteGUI.java file, provided by my teacher Kevin Wayne, as a more visual way of testing the functionality of the program.
 
-- [Seam Carving](Seam-Carving) - Java
+- [Seam Carving](seam) - Java
   This is an algorithm that can be used to dynamically resize an image with an awareness of its content. by 'carving' removable seams through the photo. Employing dynamic programming to calculate the energy (in terms of color) of the image's pixels, it 'carves' seams through the photo that removes the least-significant pixels to reach a new desired image size. This was made in the same COS226: Data Structures and Algorithms class.
 
-- [2D Nearest Neighbor Search](K-d-Trees) - Java
+- [2D Nearest Neighbor Search](kdree) - Java
   This project explores the applications of K-d trees, specifically a 2-D tree that supports range searches and nearest neighbor searches on a 2D grid. Either points or rectangles can be inputted as queries, or the RangeSearchVisualizer.java and NearestNeighborVisualer.java can be used to visually test the program. This was coded with a partner in COS 226: Data Structures and Algorithms.
   
 - [Awareness Website](Awareness) - HTML/JS/CSS

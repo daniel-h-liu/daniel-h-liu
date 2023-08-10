@@ -4,7 +4,7 @@ Hello! I am Daniel Liu, currently a sophomore at Princeton University. I plan on
 
 This git repo contains some of the projects I've created over the years, independently, as part of classes, and in hackathons. I included some brief descriptions of each project below, which I hope are helpful.
 
-Feel free to contact me at dhxl2014@gmail.com, or on [LinkedIn](www.linkedin.com/in/daniel-h-liu).
+Feel free to contact me at dhxl2014@gmail.com, or on [LinkedIn](https://www.linkedin.com/in/daniel-h-liu/).
 
 # Project Descriptions
 

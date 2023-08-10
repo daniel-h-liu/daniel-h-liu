@@ -1,4 +1,3 @@
-# daniel_liu
 
 Hello! I am Daniel Liu, currently a sophomore at Princeton University. I plan on majoring in Mathematics or Computer Science and getting a minor in the other. Additionally, I plan on getting minors in French Horn Performance and Conducting.
 

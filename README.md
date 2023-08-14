@@ -35,4 +35,4 @@ Feel free to contact me at dhxl2014@gmail.com, or on [LinkedIn](https://www.link
 
   This project was an independent project inspired by the Pokedex from Pokemon, which was a voice-activated encyclopedia of information about different Pokemon. To use this program, speak a Pokemon's name clearly into the computer's microphone, and the program, which uses p5.js to parse spoken word into strings, connects that name to PokeAPI to output relevant information. An online version can be found at: https://voicepokedex.dliu22.repl.co.
 
-* Projects marked with a star cannot be uploaded to a public repository as they were made for a class assignment and it would violate an academic honor code. However, I am more than happy to answer any questions or provide more information about each project.
+*Projects marked with a star cannot be uploaded to a public repository as they were made for a class assignment and it would violate an academic honor code. However, I am more than happy to answer any questions or provide more information about each project.
